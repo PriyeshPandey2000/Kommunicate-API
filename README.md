@@ -29,14 +29,14 @@ Upon receiving a valid request, the API sends the user's input to the OpenAI cha
 Error Handling  
 Robust error handling mechanisms have been implemented to gracefully manage invalid inputs, server errors, and other potential issues. Informative error messages are returned to clients in case of errors.
 Testing  
-Thorough testing has been conducted, including unit tests for individual components and integration tests for the entire system. 
+Thorough testing has been conducted, including unit tests for individual components and integration tests for the entire system.   
 Setup  
 Clone the repository.
 Install dependencies using npm install.
 Set up your environment variables, including the OPENAI_API_KEY, in a .env file.
 Run the server using node app.js.
 Usage
-Make POST requests to the /api/complete_chat endpoint with the required payload to get completed chat responses.
+Make POST requests to the /api/complete_chat endpoint with the required payload to get completed chat responses.  
 
 Dependencies
 axios for making HTTP requests.
